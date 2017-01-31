@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: EE491-HW01-Matsu
+  host: EE491-HW01-Matsu
+  disk_quota: 1024M
+  services:
+  - EE491-HW01-Matsu-cloudantNoSQLDB
+  - EE491-HW01-Matsu-iotf-service
